@@ -1,0 +1,77 @@
+/* Base Styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    transition: all 0.5s ease-in-out;
+}
+
+.container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+/* Themes */
+body.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.colorful-mode {
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4, #fbc2eb);
+    color: #333333;
+}
+
+body.nature-mode {
+    background: linear-gradient(135deg, #6a9113, #141517);
+    color: #ffffff;
+}
+
+body.space-mode {
+    background: radial-gradient(circle, #000428, #004e92);
+    color: #ffffff;
+}
+
+/* Buttons for each theme */
+button.light {
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+button.dark {
+    background-color: #333;
+    color: #fff;
+}
+
+button.colorful {
+    background-color: #ff9a9e;
+    color: #333;
+}
+
+button.nature {
+    background-color: #6a9113;
+    color: #fff;
+}
+
+button.space {
+    background-color: #004e92;
+    color: #fff;
+}
